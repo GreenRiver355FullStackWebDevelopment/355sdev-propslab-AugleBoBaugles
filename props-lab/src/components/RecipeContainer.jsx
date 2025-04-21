@@ -1,5 +1,8 @@
 import Recipe from './Recipe.jsx';
 import {Grid} from '@mui/material';
+
+// Renders the recipes from data/data.js using Recipe.jsx
+
 const RecipeContainer = ({recipes}) => {
 
     return (

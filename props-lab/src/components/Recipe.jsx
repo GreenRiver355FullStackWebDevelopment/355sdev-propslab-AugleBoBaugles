@@ -3,6 +3,8 @@ import Card from '@mui/material/Card';
 import CardHeader from '@mui/material/CardHeader';
 import CardContent from '@mui/material/CardContent';
 
+// Renders an individual recipe from data/data.js
+
 const Recipe = ({recipe}) => {
     const {name, ingredients, instructions} = recipe;
     return (
